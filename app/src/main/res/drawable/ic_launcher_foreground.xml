@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Glow -->
+    <path
+        android:pathData="M54,20 C42,20 32,30 32,42 C32,56 54,74 54,74 C54,74 76,56 76,42 C76,30 66,20 54,20 Z"
+        android:fillColor="#33FF4081" />
+
+    <!-- Romantic Heart -->
+    <path
+        android:pathData="M54,25 C45,15 30,22 30,37 C30,52 54,70 54,70 C54,70 78,52 78,37 C78,22 63,15 54,25 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="15"
+                android:endX="78"
+                android:endY="70"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF2D55" />
+                <item android:offset="1.0" android:color="#C2185B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Golden Ring entwined -->
+    <path
+        android:pathData="M54,48 m-20,0 a20,20 0 1,1 40,0 a20,20 0 1,1 -40,0"
+        android:strokeWidth="5"
+        android:strokeColor="#FFD700"
+        android:fillColor="#00000000" />
+
+    <!-- Sparkling Diamond on Ring Top -->
+    <path
+        android:pathData="M54,23 L59,30 L54,37 L49,30 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M54,23 L59,30 L54,37 L49,30 Z"
+        android:strokeWidth="0.8"
+        android:strokeColor="#FFE082" />
+
+    <!-- Starlight sparkles -->
+    <path
+        android:pathData="M34,26 L35,28 L37,29 L35,30 L34,32 L33,30 L31,29 L33,28 Z"
+        android:fillColor="#FFF9C4" />
+    <path
+        android:pathData="M72,24 L73,26 L75,27 L73,28 L72,30 L71,28 L69,27 L71,26 Z"
+        android:fillColor="#FFF9C4" />
+    <path
+        android:pathData="M54,78 L55,80 L57,81 L55,82 L54,84 L53,82 L51,81 L53,80 Z"
+        android:fillColor="#FFD54F" />
+</vector>

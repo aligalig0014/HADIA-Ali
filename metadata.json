@@ -1,0 +1,6 @@
+{
+  "name": "Ali & Hadia Love Proposal",
+  "description": "A magical, deeply romantic proposal experience created with endless love for Hadia by Ali, featuring falling rose petals, an emotional love letter, romantic audio, and eternal vows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
